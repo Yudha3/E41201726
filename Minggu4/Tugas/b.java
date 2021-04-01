@@ -10,10 +10,10 @@ public class b {
      System.out.println("----------------------------");
      System.out.println("----------------------------");
 
-     int kelipatan = 1;
+     int kelipatan = 2;
         do {
             System.out.print(kelipatan + " ");
-            kelipatan=kelipatan*2;
+            kelipatan=kelipatan+2;
         } while(kelipatan <= 100);
     }
 }
